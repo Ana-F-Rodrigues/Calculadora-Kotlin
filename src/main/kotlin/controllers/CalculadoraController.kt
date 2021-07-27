@@ -10,4 +10,6 @@ class CalculadoraController {
 
     @GetMapping("/soma")
     fun soma(n1: Int, n2: Int) = n1 + n2
+
+    //lembrar de digitar localhos:8080/calculadora/soma/n1=10&n2=5;
 }
